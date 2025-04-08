@@ -60,4 +60,4 @@ More components, pages, and features are on the way!
 
 ---
 
-> Designed and developed with 💅 by [@mxisaa](https://github.com/mxisaa)
+> Designed and developed by [@mxisaa](https://github.com/mxisaa)
