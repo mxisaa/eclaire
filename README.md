@@ -59,3 +59,5 @@ More components, pages, and features are on the way!
 [MIT License](LICENSE)
 
 ---
+
+> Designed and developed with 💅 by [@mxisaa](https://github.com/mxisaa)
