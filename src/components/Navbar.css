@@ -57,6 +57,10 @@
   font-size: 1.1rem;
 }
 
+.reserve-button:hover {
+  background-color: #3d1119;
+}
+
 .nav-links a {
   text-decoration: none;
   color: #3A3A3A;

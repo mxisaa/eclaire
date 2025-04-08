@@ -7,6 +7,10 @@ function Home() {
       <div className="hero-section">
         <div className="image-wrapper">
           <img src={heroImage} alt="Hero" className="hero-image" />
+          <div className="hero-reserve-box">
+          <p className="reserve-text">welcome</p>
+          <button className="reserve-button-mid">Reserve</button>
+       </div>
           <div className="hero-overlay"></div>
         </div>
       </div>
@@ -19,7 +23,7 @@ function Home() {
       </section>
 
       <section className='more-info-section'>
-        
+
       </section>
     </>
   );

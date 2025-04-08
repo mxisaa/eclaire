@@ -11,8 +11,10 @@
 
 .image-wrapper {
   position: relative;
-  display: inline-block; 
+  display: inline-block;
+  width: 1200px; /* same as image */ 
   z-index: 0;
+  margin: 0 auto;
 }
 
 .hero-image {
@@ -36,8 +38,6 @@
   margin-top: 0px;
   background-color: #5C1E27;
   color: #E6CBA8;
-  font-family: 'Lora', serif;
-  font-style: normal;
   font-size: 0.9rem;
   height: 200px;
   text-align: center;
@@ -63,4 +63,37 @@
 .about-section a {
   text-decoration: none;
   color:#5C1E27;
+}
+
+.hero-reserve-box {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #F8EDEB;
+  padding: 1rem 3rem;
+  border-radius: 40px 0 0 0;
+  z-index: 2;
+  text-align: center;
+}
+
+.reserve-text {
+  font-family: 'Italianno', cursive;
+  font-size: 2.5rem;
+  color: #5C1E27;
+  margin: 0 0 0rem 0;
+}
+
+.reserve-button-mid {
+  background-color: #5C1E27;
+  border: none;
+  padding: 0.6rem 2rem;
+  color: #E6CBA8;
+  text-decoration: none;
+  font-family: 'Lora', serif;
+  font-style: normal;
+  font-size: 1.5rem;
+}
+
+.reserve-button-mid:hover {
+  background-color: #3d1119;
 }
