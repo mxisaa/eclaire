@@ -1,0 +1,66 @@
+.navbar {
+  background-color: #ffffff;
+  border-bottom: 1px solid #eaeaea;
+  border: 2px solid black;
+  padding: 5px;
+  background-color: #F8EDEB;
+  margin: 1rem 1.5rem 1rem 1.5rem;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lora', serif;
+  font-style: normal;
+  align-items: center;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5rem;
+}
+
+.nav-right {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding-right: 20px;
+}
+
+.logo {
+  font-family: 'Italianno', cursive;
+  font-size: 3rem;
+  font-weight: normal;
+  border-right: 1px solid black;
+  padding-right: 20px;
+  padding-left: 10px;
+  color: #5C1E27;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.logo a {
+  text-decoration: none;
+  color: #5C1E27;
+}
+
+.reserve-button {
+  background-color: #5C1E27;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  color: #E6CBA8;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #3A3A3A;
+  font-family: 'Lora', serif;
+  font-style: normal;
+  font-size: 1.1rem;
+}
