@@ -59,7 +59,3 @@ More components, pages, and features are on the way!
 [MIT License](LICENSE)
 
 ---
-
-> Designed and developed by [@mxisaa](https://github.com/mxisaa)git add README.md
-git commit -m "Replace default README with custom version"
-git push
