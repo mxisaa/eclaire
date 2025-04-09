@@ -1,5 +1,11 @@
 import './Home.css';
 import heroImage from '../assets/hero.png';
+import Michelin from '../assets/Michelin.png';
+import feature1 from '../assets/feature-1.png';
+import feature2 from '../assets/feature-2.png';
+import feature3 from '../assets/feature-3.png';
+import feature4 from '../assets/feature-4.png';
+
 
 function Home() {
   return (
@@ -22,9 +28,39 @@ function Home() {
         <button className='learn-more-button'><a href='/about'>Learn More</a></button>
       </section>
 
-      <section className='more-info-section'>
-
-      </section>
+      <section className="feature-section">
+  {/* Top Left */}
+  <div className="tile">
+    <div className='tile image-row'>
+    <img src={feature1} alt="Restaurant exterior" />
+    <img src={feature2} alt="Inside the restaurant" />
+    </div>
+  </div>
+  {/* Top Right */}
+  <div className="tile offer-box">
+    <h2>what we offer</h2>
+    <hr className="offer-divider" />
+    <div className='offer-content'>
+    <p>
+    Discover the flavors of Éclaire—where every dish is crafted with elegance and authenticity. From exquisite entrées to indulgent desserts, our menu is a celebration of French culinary artistry. Whether you're here for a light lunch, an intimate dinner, or a refreshing drink, you'll find something to savor. Explore our menu and let your taste buds embark on a journey through Parisian excellence.
+    </p>
+    <button className="menu-button">Menu</button>
+    </div>
+  </div>
+  {/* Bottom Left */}
+  <div className="tile recognition-tile">
+    <h2 className="recognition-heading">recognition</h2>
+    <div className="michelin-badge">
+      <img src={Michelin} alt="Michelin Star 2024" />
+    </div>
+    <div className="divider"></div>
+  </div>
+  {/* Top Right */}
+  <div className="tile image-row">
+    <img src={feature3} alt="Dish two" />
+    <img src={feature4} alt="Pouring wine" />
+  </div>
+</section>
     </>
   );
 }
