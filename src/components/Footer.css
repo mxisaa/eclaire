@@ -1,0 +1,17 @@
+.footer-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #5C1E27;
+  color: #E6CBA8;
+  font-family: 'Lora', serif;
+  font-style: normal;
+  padding-top: 20px;
+  font-size: 0.8rem;
+  padding-bottom: 5px;
+}
+
+.copyright-image {
+  width: 20px;
+  margin-right: 5px;
+}
