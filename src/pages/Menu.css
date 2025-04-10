@@ -1,0 +1,65 @@
+.menu-section {
+  padding: 4rem 2rem;
+  text-align: center;
+  color: #5C1E27;
+}
+
+.menu-title {
+  font-family: 'Italianno', cursive;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.tab-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.tab-buttons button {
+  padding: 0.6rem 3.5rem;
+  background-color: #5C1E27;
+  border: none;
+  font-family: 'Lora', serif;
+  cursor: pointer;
+  font-size: 1rem;
+  color: #E6CBA8;
+  border: 1px solid transparent;
+  margin-right: 70px;
+}
+
+.tab-buttons button.active {
+  background-color: #986969;
+  color: #E6CBA8;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.menu-column {
+  flex: 1;
+  max-width: 300px;
+}
+
+
+.menu-hero-img {
+  width: 100%;
+  height: auto;
+  max-height: 600px;
+  object-fit: contain;
+  display: block;
+  margin-bottom: 50px;
+}
+
+.menu-heading {
+  font-family: 'Italianno', cursive;
+  font-size: 3rem;
+  margin-bottom: 0;
+}

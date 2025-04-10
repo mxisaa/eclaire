@@ -12,6 +12,8 @@ function About() {
   <img src={aboutHero} alt="About hero" />
 </section>
 
+<section className='about-background'>
+
 <section className="about-grid-section">
   <div className="grid-item image">
     <img src={Chef} alt="Chef preparing food" />
@@ -42,6 +44,7 @@ function About() {
   <div className="grid-item image">
     <img src={Server} alt="Server with drinks" />
   </div>
+</section>
 </section>
     </>
   

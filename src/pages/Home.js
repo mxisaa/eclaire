@@ -38,7 +38,7 @@ function Home() {
   </div>
   {/* Top Right */}
   <div className="tile offer-box">
-    <h2>what we offer</h2>
+    <p className='bottom-heading'>what we offer</p>
     <hr className="offer-divider" />
     <div className='offer-content'>
     <p>
@@ -49,7 +49,7 @@ function Home() {
   </div>
   {/* Bottom Left */}
   <div className="tile recognition-tile">
-    <h2 className="recognition-heading">recognition</h2>
+    <p className="bottom-heading">recognition</p>
     <div className="michelin-badge">
       <img src={Michelin} alt="Michelin Star 2024" />
     </div>
