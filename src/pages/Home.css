@@ -228,3 +228,86 @@
   margin-top: 0.5rem;      
   margin-bottom: 0rem; 
 }
+
+@media screen and (max-width: 768px) {
+  .hero-section {
+    height: auto;
+    margin-top: 50px;
+  }
+
+  .image-wrapper {
+    width: 100%;
+  }
+
+  .hero-image {
+    width: 100%;
+  }
+
+  .hero-reserve-box {
+    position: static;
+    border-radius: 0;
+    padding: 1.2rem;
+    margin-top: 1rem;
+  }
+
+  .reserve-text {
+    font-size: 2rem;
+  }
+
+  .reserve-button-mid {
+    font-size: 1.2rem;
+    padding: 0.5rem 1.5rem;
+  }
+
+  .about-section {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    height: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-size: 0.9rem;
+  }
+
+  .learn-more-button {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    width: auto;
+  }
+
+  .feature-section {
+    grid-template-columns: 1fr;
+    padding: 2rem 1rem;
+  }
+
+  .offer-content {
+    padding: 2rem 1.5rem;
+  }
+
+  .menu-button {
+    font-size: 1.2rem;
+    padding: 0.5rem 2rem;
+  }
+
+  .image-row {
+    flex-direction: column;
+  }
+
+  .image-row img {
+    width: 100%;
+  }
+
+  .recognition-heading {
+    font-size: 2rem;
+  }
+
+  .michelin-badge {
+    width: 90px;
+    height: 90px;
+    font-size: 0.9rem;
+  }
+
+  .offer-box h2,
+  .bottom-heading {
+    font-size: 3rem;
+  }
+}
